@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">yoga_</string>
+    <string name='label'>Mobile Number</string>
+    <string name="otp_label">Enter OTP</string>
+    <string name="username_required">invalid phone number</string>
+    <string name="firstName">First name</string>
+    <string name="height">Height in CM</string>
+    <string name="weight">Weight in KG</string>
+    <string name="lastName">Last name</string>
+    <string name="male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Other">Other</string>
+    <string name="Submit">Submit</string>
+    <string name="Skip">Skip for now</string>
+    <string name="Profile">Profile Info</string>
+    <string name="gender">Select gender</string>
+    <string name="Save">Save</string>
+    <string name="age">Age in YEARS</string>
+    <string name="calorie_BMR_info">Your Basal Metabolic Rate (BMR) is the number of calories you burn as your body performs basic (basal) life-sustaining function.</string>
+    <string name="calorie_intake_info">You must eat the above calories in order to maintain your weight. And decrease or increase your calories in-order to gain or lose weight</string>
+    <string name="request_name_change"><![CDATA[<u>request for name change</u>]]></string>
+</resources>

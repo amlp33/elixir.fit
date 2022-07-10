@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+        android:id="@+id/profileMainContainer"
+    android:background="@drawable/orange_background"
+    tools:context=".profilePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_border"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="PROFILE UPDATE "
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Name"
+            android:layout_weight="1.4"
+            />
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:enabled="false"
+            android:layout_weight="0.6"
+            android:padding="10dp" />
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Age"
+                android:layout_weight="1.4"
+                />
+
+            <EditText
+                android:id="@+id/userAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:enabled="false"
+                android:layout_weight="0.6"
+                android:inputType="number"
+                android:padding="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Weight"
+                android:layout_weight="1.4"
+                />
+
+            <EditText
+                android:id="@+id/userWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:enabled="false"
+                android:layout_weight="0.6"
+                android:inputType="number"
+                android:padding="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Height"
+                android:layout_weight="1.4"
+                />
+
+            <EditText
+                android:id="@+id/userHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:enabled="false"
+                android:layout_weight="0.6"
+                android:inputType="number"
+                android:padding="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+<Button
+    android:id="@+id/profileEditButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="17dp"
+    android:padding="20dp"
+    android:backgroundTint="@color/white_1"
+    android:textColor="@color/red_500"
+    android:text="Edit"/>
+
+    <Button
+        android:id="@+id/profileSaveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="17dp"
+        android:backgroundTint="@color/green"
+        android:padding="20dp"
+        android:visibility="gone"
+        android:text="Save"/>
+
+</LinearLayout>
