@@ -4,8 +4,8 @@
 
 https://user-images.githubusercontent.com/68852345/180461811-8901cf2f-5b3e-4926-93bd-5cd1f12ec4f5.mp4
 
-Sorry for bad quality ( as github doesn't allow a video size > 10mb
 ---
+_Sorry for bad quality ( as github doesn't allow a video size > 10mb_
 
 
 ## A project funded under the innovation program by MITWPU.
@@ -44,7 +44,7 @@ But the scope was increased to handicapped people as well.
         
       
    ## Bugs 
-_A project without bugs is not a project_
+###_A project without bugs is not a project_
        
        - As Cloud firestore is used as entire backend, so the cost is based on the
          read & writes to the database. But the code is not optimised well to decrease
