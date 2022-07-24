@@ -44,7 +44,7 @@ But the scope was increased to handicapped people as well.
         
       
    ## Bugs 
-###_A project without bugs is not a project_
+### _A project without bugs is not a project_
        
        - As Cloud firestore is used as entire backend, so the cost is based on the
          read & writes to the database. But the code is not optimised well to decrease
