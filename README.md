@@ -66,6 +66,5 @@ But the scope was increased to handicapped people as well.
               filtering has became a bit pain in the head.
               
         
-         
-                      
+** Presently it's being out-sourced and developed in flutter.        
       
